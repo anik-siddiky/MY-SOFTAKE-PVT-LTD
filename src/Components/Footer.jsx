@@ -1,5 +1,5 @@
 import { FaGreaterThan } from 'react-icons/fa';
-import footerImage from '../assets/Screenshot_29-removebg-preview.png';
+import footerImage from '../assets/logo/mySoftakeLogo.png';
 import footerImage2 from '../assets/footerImage.gif';
 import { Link } from 'react-router';
 
@@ -10,9 +10,9 @@ const Footer = () => {
 
                 <div className='space-y-1'>
                     <Link to='/'>
-                        <img className='w-56 mb-2' src={footerImage} alt="" />
+                        <img className='w-20 md:w-28 lg:w-36 mb-2' src={footerImage} alt="" />
                     </Link>
-                    <p className='text-[12px] font-semibold'>World Navy Co.,Ltd.</p>
+                    <p className='text-[12px] font-semibold'>MY SOFTAKE PVT. LTD. </p>
                     <p className='text-[12px] font-extralight'>4-27,MONGUCHI-CHO,HYOGO-KU</p>
                     <p className='text-[12px] font-extralight'>KOBE,JAPAN 652-0814</p>
                 </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                         {'>'} <Link to="/gallery" className='hover:underline'>Gallery</Link>
                     </li>
                     <p className='text-center text-[12px] py-6'>
-                        Copyright © WORLD NAVI CO.,LTD. All Rights Reserved.
+                        Copyright © MY SOFTAKE PVT. LTD. All Rights Reserved.
                     </p>
                 </ul>
 
@@ -48,8 +48,6 @@ const Footer = () => {
                     <p className='text-[10px] mt-3'>Japan used motor vehicle exporters <br /> association</p>
                 </div>
             </div>
-
-
         </footer>
     );
 };

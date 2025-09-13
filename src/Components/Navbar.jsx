@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router';
-import logo from '../assets/webLogo.gif';
+import logo from '../assets/logo/mySoftakeLogo.png'
 import navPhoto1 from '../assets/home.gif';
 import navPhoto1Hover from '../assets/home-hover.gif';
 import navPhoto2 from '../assets/companyProfile.gif';
@@ -28,7 +28,7 @@ const Navbar = () => {
         <nav>
             <div className='flex items-start py-4 justify-between max-w-[1000px] mx-auto lg:px-0 px-2'>
                 <Link to="/">
-                    <img src={logo} />
+                    <img className='w-16 md:w-20 lg:w-28' src={logo} />
                 </Link>
                 <div className='flex gap-1'>
                     <button className='text-white bg-black py-0.5 px-1.5 lg:px-2.5 text-[13px] cursor-pointer hover:bg-black/75'>JAPANESE</button>
