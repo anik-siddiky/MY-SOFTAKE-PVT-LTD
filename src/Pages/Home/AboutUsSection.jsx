@@ -12,8 +12,7 @@ const AboutUsSection = () => {
 
             <div>
                 <img className='pb-4' src={aboutImg} alt="" />
-                <p className='text-[13px] font-extralight leading-[1.8]'>From Japan to the world, the number of cars that go over the sea is increasing each year. We, World Navi, strive to continue as a leading company in the pre owned auto export business.</p>
-                <p className='text-[13px] font-extralight leading-[1.8]'>What we value the most is the trust from the customers. We built the trust over the years by rapid service of locating, purchasing, servicing, processing and exporting the cars, as well as by our system to immediately respond to customers’ needs. We export Japanese cars daily to customers throughout the world with satisfaction.</p>
+                <p className='text-[13px] font-extralight leading-[1.8]'>MY SOFTAKE PVT. LTD. is an international company working in many sectors such as manufacturing, import & export, IT services, travel, logistics, and construction. Our vision is to build trust and connect Bangladesh, Japan, and China with the global market.</p>
                 <img className='pt-4' src={infoImg} alt="" />
 
                 <div className='bg-[#F4F4F4] text-[13px] noto-sans-jp py-5'>

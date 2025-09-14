@@ -10,6 +10,10 @@ const CompanyProfile = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const handlePrint = () => {
+    window.print();
+  };
+
   return (
     <div className="max-w-[1000px] mx-auto pt-5 pb-10 lg:px-0 px-3">
       <p className="text-[12px] pb-5 text-end">
@@ -176,6 +180,12 @@ const CompanyProfile = () => {
           <Link to="/export-base" className="flex justify-center">
             <img className="w-full sm:w-auto" src={exportPointImg} alt="" />
           </Link>
+
+          <div className='flex justify-center'>
+            <button onClick={handlePrint} className="mt-4 bg-[#FF9600] text-white px-4 py-2 rounded">
+              Print / Download PDF
+            </button>
+          </div>
         </div>
       </div>
     </div>
