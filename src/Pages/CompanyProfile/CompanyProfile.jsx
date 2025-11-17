@@ -183,7 +183,7 @@ const CompanyProfile = () => {
 
           <div className='flex justify-center'>
             <button onClick={handlePrint} className="mt-4 bg-[#FF9600] text-white px-4 py-2 rounded">
-              Print / Download PDF
+              Download PDF
             </button>
           </div>
         </div>

@@ -13,8 +13,8 @@ const Footer = () => {
                         <img className='w-20 md:w-28 lg:w-36 mb-2' src={footerImage} alt="" />
                     </Link>
                     <p className='text-[12px] font-semibold'>MY SOFTAKE PVT. LTD. </p>
-                    <p className='text-[12px] font-extralight'>4-27,MONGUCHI-CHO,HYOGO-KU</p>
-                    <p className='text-[12px] font-extralight'>KOBE,JAPAN 652-0814</p>
+                    <p className='text-[12px] font-extralight'>Sector 9, Road 3E, House 4, Lift 6th</p>
+                    <p className='text-[12px] font-extralight'>Dhaka, Bangladesh</p>
                 </div>
 
                 <ul className='space-y-2'>

@@ -2,7 +2,6 @@ import { Link } from 'react-router';
 import banner from '../../assets/aboutPhoto.jpg';
 import companyPro from '../../assets/company_title.jpg';
 import exportPointImg from '../../assets/companyProfileCTA.gif';
-import advancingGlobally from '../../assets/advancingGlobally.gif';
 import allPorts from '../../assets/allPorts.jpg';
 import extraFeatures from '../../assets/extraFeatures.jpg';
 import { useEffect } from 'react';
@@ -17,7 +16,7 @@ const ExportBase = () => {
       {/* Breadcrumb */}
       <p className="text-[12px] pb-5 text-end">
         <Link to="/" className="text-[#FF9600] hover:underline cursor-pointer">
-          WORLD NAVI TOP
+          MY SOFTAKE PVT. LTD.
         </Link>{" "}
         {">"} Company Profile
       </p>
@@ -35,7 +34,7 @@ const ExportBase = () => {
         <div className="space-y-8 lg:space-y-10">
           <img className="w-full lg:w-auto" src={companyPro} alt="" />
 
-          <img className="w-full lg:w-auto" src={advancingGlobally} alt="" />
+          {/* <img className="w-full lg:w-auto" src={advancingGlobally} alt="" /> */}
 
           <p className="text-center text-[13px] leading-[1.8] px-2 lg:px-0">
             World Navi Co.,Ltd chose Kobe for its place of founding; a city that
