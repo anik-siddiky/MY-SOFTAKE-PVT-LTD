@@ -22,7 +22,7 @@ const Gallery = () => {
     return (
         <div className='max-w-[1000px] mx-auto pt-5 pb-24 px-3 sm:px-5 lg:px-0'>
             <p className='text-[12px] pb-5 text-end'>
-                <Link to="/" className='text-[#FF9600] hover:underline cursor-pointer'>WORLD NAVI TOP</Link> {">"} Gallery
+                <Link to="/" className='text-[#FF9600] hover:underline cursor-pointer'>MY SOFTAKE PVT. LTD.</Link> {">"} Gallery
             </p>
 
             <div className='flex flex-col lg:flex-row gap-6 lg:gap-10'>

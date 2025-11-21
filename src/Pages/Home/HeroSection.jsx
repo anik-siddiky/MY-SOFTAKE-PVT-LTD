@@ -9,7 +9,7 @@ import { Carousel } from 'react-responsive-carousel'
 
 const HeroSection = () => {
     return (
-        <div>
+        <div className="rounded-3xl overflow-hidden">
             <Carousel
                 autoPlay
                 infiniteLoop

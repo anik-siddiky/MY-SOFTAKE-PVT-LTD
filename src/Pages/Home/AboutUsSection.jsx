@@ -18,19 +18,19 @@ const AboutUsSection = () => {
                 <div className='bg-[#F4F4F4] text-[13px] noto-sans-jp py-5'>
                     <div className='flex gap-8 p-2'>
                         <dt>2025/07/15</dt>
-                        <Link to="/notice-of-office-closure"><p className='text-[#FF9600] hover:underline cursor-pointer pb-1'>Notice of office Closure</p></Link>
+                        <Link to="/"><p className='text-[#FF9600] hover:underline cursor-pointer pb-1'>Notice of office Closure</p></Link>
                     </div>
                     <div className='border-b border-gray-300'></div>
 
                     <div className='flex gap-8 p-2'>
                         <dt>2025/04/08</dt>
-                        <Link to="/notice-of-golden-week"><p className='text-[#FF9600] hover:underline cursor-pointer pb-1'>Notice of office closure</p></Link>
+                        <Link to="/"><p className='text-[#FF9600] hover:underline cursor-pointer pb-1'>Notice of office closure</p></Link>
                     </div>
                     <div className='border-b border-gray-300'></div>
 
                     <div className='flex gap-8 p-2'>
                         <dt>2024/11/27</dt>
-                        <Link to="/winter-holiday-notice"><p className='text-[#FF9600] hover:underline cursor-pointer pb-1'>Winter holiday</p></Link>
+                        <Link to="/"><p className='text-[#FF9600] hover:underline cursor-pointer pb-1'>Winter holiday</p></Link>
                     </div>
                     <div className='border-b border-gray-300'></div>
 

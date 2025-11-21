@@ -1,6 +1,6 @@
 import { FaGreaterThan } from 'react-icons/fa';
 import footerImage from '../assets/logo/mySoftakeLogo.png';
-import footerImage2 from '../assets/footerImage.gif';
+// import footerImage2 from '../assets/footerImage.gif';
 import { Link } from 'react-router';
 
 const Footer = () => {
@@ -43,9 +43,9 @@ const Footer = () => {
                     </p>
                 </ul>
 
-                <div>
-                    <img className='mx-auto' src={footerImage2} alt="" />
-                    <p className='text-[10px] mt-3'>Japan used motor vehicle exporters <br /> association</p>
+                <div className='md:block hidden'>
+                    <img className='mx-auto w-12' src={footerImage} alt="" />
+                    <p className='text-[10px] mt-3'>Grow with <b>MY SOFTAKE PVT. LTD.</b></p>
                 </div>
             </div>
         </footer>

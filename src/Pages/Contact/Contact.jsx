@@ -55,21 +55,17 @@ const Contact = () => {
     }
 
     return (
-        <div className="min-h-[calc(100vh-143px)] flex flex-col items-center justify-center bg-gradient-to-br from-orange-50 to-orange-100 p-6 sm:px-3 md:px-5">
-            <div className="bg-white shadow-2xl rounded-2xl p-6 lg:p-8 w-full max-w-3xl space-y-6">
+        <div className="min-h-[calc(100vh-143px)] flex flex-col items-center justify-center bg-gradient-to-br from-orange-50 to-orange-100 p-4 md:px-5">
+            <div className="bg-white shadow-2xl rounded-2xl p-5 lg:p-8 w-full max-w-3xl space-y-6">
                 <div className="text-center">
-                    <h1 className="text-2xl lg:text-4xl font-bold text-[#FF9600] mb-4 sm:text-2xl md:text-3xl">Get in Touch with World Navi</h1>
-                    <p className="text-gray-600 text-sm sm:text-xs md:text-sm">
-                        From Japan to the world, World Navi is your trusted partner in exporting high-quality pre-owned Japanese cars.
-                        Fill out the form below, and our team will get back to you promptly.
-                    </p>
+                    <h1 className="text-2xl lg:text-3xl font-bold text-[#FF9600] mb-4 sm:text-2xl md:text-3xl">Get in Touch with MY SOFTAKE PVT. LTD.</h1>
                     <p className="text-gray-600 text-sm sm:text-xs md:text-sm">
                         We value your trust and aim to provide quick, reliable, and professional service from locating, purchasing, servicing, processing, to exporting your car.
                     </p>
                 </div>
 
-                <div className="bg-gray-50 p-6 sm:p-4 md:p-5 rounded-xl shadow-inner space-y-5">
-                    <h2 className="text-2xl font-semibold text-[#FF9600] mb-4 text-center sm:text-xl md:text-[22px]">Contact Form</h2>
+                <div className="bg-gray-50 p-4 sm:p-4 md:p-5 rounded-xl shadow-inner space-y-5">
+                    <h2 className="text-xl font-semibold text-[#FF9600] mb-4 text-center sm:text-xl md:text-[22px]">Contact Form</h2>
                     <form onSubmit={handleSubmit} className="space-y-5">
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-1">Name</label>

@@ -32,30 +32,30 @@ const Router = createBrowserRouter([
             //     path: 'export-base',
             //     element: <ExportBase></ExportBase>
             // },
-            {
-                path: 'notice-of-office-closure',
-                element: <NoticeOfOfficeClosure></NoticeOfOfficeClosure>
-            },
-            {
-                path: "notice-of-golden-week",
-                element: <NoticeOfGoldenWeek></NoticeOfGoldenWeek>
-            },
-            {
-                path: 'winter-holiday-notice',
-                element: <WinterHolidayNotice></WinterHolidayNotice>
-            },
+            // {
+            //     path: 'notice-of-office-closure',
+            //     element: <NoticeOfOfficeClosure></NoticeOfOfficeClosure>
+            // },
+            // {
+            //     path: "notice-of-golden-week",
+            //     element: <NoticeOfGoldenWeek></NoticeOfGoldenWeek>
+            // },
+            // {
+            //     path: 'winter-holiday-notice',
+            //     element: <WinterHolidayNotice></WinterHolidayNotice>
+            // },
             {
                 path: 'business-description',
                 element: <BusinessDescription></BusinessDescription>
             },
-            {
-                path: 'sales',
-                element: <Sales></Sales>
-            },
-            {
-                path: 'acquisition',
-                element: <Acquisition></Acquisition>
-            },
+            // {
+            //     path: 'sales',
+            //     element: <Sales></Sales>
+            // },
+            // {
+            //     path: 'acquisition',
+            //     element: <Acquisition></Acquisition>
+            // },
             {
                 path: 'gallery',
                 element: <Gallery></Gallery>
