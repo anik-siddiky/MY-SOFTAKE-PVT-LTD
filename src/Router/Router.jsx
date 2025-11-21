@@ -28,10 +28,10 @@ const Router = createBrowserRouter([
                 path: 'company-profile',
                 element: <CompanyProfile></CompanyProfile>
             },
-            {
-                path: 'export-base',
-                element: <ExportBase></ExportBase>
-            },
+            // {
+            //     path: 'export-base',
+            //     element: <ExportBase></ExportBase>
+            // },
             {
                 path: 'notice-of-office-closure',
                 element: <NoticeOfOfficeClosure></NoticeOfOfficeClosure>

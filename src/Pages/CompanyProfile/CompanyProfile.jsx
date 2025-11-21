@@ -2,7 +2,7 @@ import { Link } from 'react-router';
 import banner from '../../assets/aboutPhoto.jpg';
 import companyPro from '../../assets/company_title.jpg';
 import corporateBanner from '../../assets/corporateBanner.jpg';
-import exportPointImg from '../../assets/exportPoint.gif';
+// import exportPointImg from '../../assets/exportPoint.gif';
 import { useEffect } from 'react';
 
 const CompanyProfile = () => {
@@ -177,9 +177,9 @@ const CompanyProfile = () => {
             ></iframe>
           </div>
 
-          <Link to="/export-base" className="flex justify-center">
+          {/* <Link to="/export-base" className="flex justify-center">
             <img className="w-full sm:w-auto" src={exportPointImg} alt="" />
-          </Link>
+          </Link> */}
 
           <div className='flex justify-center'>
             <button onClick={handlePrint} className="mt-4 bg-[#FF9600] text-white px-4 py-2 rounded">
